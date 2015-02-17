@@ -1,0 +1,8 @@
+depends:
+    - test-runner
+
+tests:
+    - tests/parameter_test.cpp
+
+source:
+    - parameter.c
