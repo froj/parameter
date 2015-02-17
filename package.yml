@@ -1,8 +1,11 @@
 depends:
+    - cmp_mem_access:
+        fork: stapelzeiger
     - test-runner
-
-tests:
-    - tests/parameter_test.cpp
 
 source:
     - parameter.c
+    - dependencies/cmp/cmp.c
+
+tests:
+    - tests/parameter_test.cpp
